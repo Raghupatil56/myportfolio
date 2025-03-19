@@ -122,7 +122,7 @@ const Experience = () => {
                         <p className="text-lg font-medium">{exp.timeline}</p>
                         <div className="text-lg mt-4">{exp.description}</div>
                         <div className="text-lg mt-4">{exp.Achievements}</div>
-                        {index !== projectDetails.length - 1 && (
+                        {index !== experienceDetails.length - 1 && (
                             <hr className="w-11/12 mx-auto border border-gray-700 mt-6" />
                         )}
                     </div>
