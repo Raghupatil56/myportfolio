@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { FiMenu, FiX } from "react-icons/fi"; // Icons for mobile menu
+import { FiMenu, FiX } from "react-icons/fi"; 
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -19,9 +19,9 @@ const Navbar = () => {
 
                 {/* Desktop Menu */}
                 <div className="hidden md:flex space-x-8 font-bold text-lg">
-                    <Link to="my-portfolio/" className="hover:text-gray-400">Home</Link>
-                    <Link to="my-portfolio/Projectss" className="hover:text-gray-400">Projects</Link>
-                    <Link to="my-portfolio/Contact" className="hover:text-gray-400">Contact</Link>
+                    <Link to="myportfolio/" className="hover:text-gray-400">Home</Link>
+                    <Link to="myportfolio/Experience" className="hover:text-gray-400">Experience</Link>
+                    <Link to="myportfolio/Contact" className="hover:text-gray-400">Contact</Link>
                 </div>
 
                 {/* Mobile Menu Button */}
@@ -36,9 +36,9 @@ const Navbar = () => {
             {/* Mobile Menu (Appears when menuOpen is true) */}
             {menuOpen && (
                 <div className="md:hidden flex flex-col bg-gray-800 py-4">
-                    <Link to="my-portfolio/" className="py-2 hover:bg-gray-700 text-center" onClick={() => setMenuOpen(false)}>Home</Link>
-                    <Link to="my-portfolio/Projectss" className="py-2 hover:bg-gray-700 text-center" onClick={() => setMenuOpen(false)}>Projects</Link>
-                    <Link to="my-portfolio/Contact" className="py-2 hover:bg-gray-700 text-center" onClick={() => setMenuOpen(false)}>Contact</Link>
+                    <Link to="myportfolio/" className="py-2 hover:bg-gray-700 text-center" onClick={() => setMenuOpen(false)}>Home</Link>
+                    <Link to="myportfolio/Experience" className="py-2 hover:bg-gray-700 text-center" onClick={() => setMenuOpen(false)}>Experience</Link>
+                    <Link to="myportfolio/Contact" className="py-2 hover:bg-gray-700 text-center" onClick={() => setMenuOpen(false)}>Contact</Link>
                 </div>
             )}
         </nav>
