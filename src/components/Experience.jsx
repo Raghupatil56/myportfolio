@@ -3,7 +3,7 @@ const Experience = () => {
         {
             company: "SOCIETE GENERALE",
             title: "Team Lead - Middle Office Management Services",
-            timeline: "Mar2020 – Present",
+            timeline: "Mar 2020 – Present",
             description: (
                 <p>
                     <strong>Tasks Performed:</strong>
@@ -27,7 +27,7 @@ const Experience = () => {
         {
             company: "ACCENTURE",
             title: "Subject Matter Expert ",
-            timeline: "May2013 – Mar2020",
+            timeline: "May 2013 – Mar 2020",
             description: (
                 <p>
                     <strong>Tasks Performed:</strong>
@@ -64,7 +64,7 @@ const Experience = () => {
         {
             company: "TATA CONSULTANCY SERVICES",
             title: "Process Associate ",
-            timeline: "May2012 – July2013",
+            timeline: "May 2012 – July 2013",
             description: (
                 <p>
                     <strong>Tasks Performed:</strong>
@@ -86,7 +86,7 @@ const Experience = () => {
         {
             company: "MPHASIS-AN HP COMPANY",
             title: "Transaction Processing Officer  ",
-            timeline: "Oct2010 – Mar2012",
+            timeline: "Oct 2010 – Mar 2012",
             description: (
                 <p>
                     <strong>Tasks Performed:</strong>
