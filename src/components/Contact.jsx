@@ -8,7 +8,7 @@ const Contact = () => {
       <div className="border-4 border-white p-6 rounded-lg shadow-md w-full max-w-md md:max-w-lg">
         <p className="text-xl md:text-2xl font-bold mb-4"> 
           <a 
-            href="mailto:raghavendrapatil309@gmail.com" 
+            href="mailto:seemapateela@yahoo.co.in" 
             className="text-white hover:text-3xl transition-transform duration-200"
           >
             📧 Email
@@ -27,7 +27,7 @@ const Contact = () => {
 
         <p className="text-xl md:text-2xl font-bold mb-4">
           <a 
-            href="https://www.linkedin.com/in/raghupatil309/" 
+            href="https://www.linkedin.com/in/seema-pateela-0a494a170/" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="text-white hover:text-3xl transition-transform duration-200"
@@ -49,7 +49,7 @@ const Contact = () => {
 
         <p className="text-xl md:text-2xl font-bold">
           <a 
-            href="/myportfolio/Raghavendr Patil Resume.pdf" 
+            href="/myportfolio/Seema_CV.pdf" 
             download 
             className="text-white hover:text-3xl transition-transform duration-200"
           >

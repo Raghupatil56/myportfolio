@@ -23,8 +23,8 @@ const Home = () => {
         {/* Image Section */}
         <div className="w-full md:w-1/2 flex justify-center mt-6 md:mt-0">
           <img
-            src="/myportfolio/Raghu.jpg"
-            alt="Raghavendra Patil"
+            src="/myportfolio/seema Pateela.jpg"
+            alt="Seema Pateela"
             className="w-48 md:w-72 lg:w-96 h-auto rounded-full drop-shadow-[0px_0px_80px_rgba(255,0,187,0.9)] object-cover"
           />
         </div>
